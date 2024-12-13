@@ -41,3 +41,10 @@ main {
 #bd-theme::after {
   margin-left: 0;
 }
+
+.picture {
+  max-height: 150px;
+  min-width: 150px;
+  border-radius: 15px;
+  overflow: hidden;
+}
