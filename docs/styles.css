@@ -1,0 +1,35 @@
+body {
+  background-repeat: no-repeat;
+  font-family: Raleway, Montserrat, "Open Sans", sans-serif;
+}
+
+main {
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.navbar-brand {
+  line-height: 1rem;
+}
+
+.real-name {
+  font-size: 0.5rem;
+}
+
+.nav-link:active {
+  text-decoration: none;
+}
+
+.scrollspy {
+  position: relative;
+}
+
+.nav-underline .nav-link:hover, .nav-underline .nav-link:focus {
+  border-bottom-color: transparent;
+}
+.nav-underline .nav-link.active,
+.nav-underline .show > .nav-link {
+  font-weight: 700;
+  color: var(--cui-nav-underline-link-active-color);
+  border-bottom-color: transparent;
+}
