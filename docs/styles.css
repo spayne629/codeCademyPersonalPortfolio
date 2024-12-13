@@ -33,3 +33,11 @@ main {
   color: var(--cui-nav-underline-link-active-color);
   border-bottom-color: transparent;
 }
+
+.dropdown-item.active {
+  background-color: rgba(51, 204, 255, 0.4);
+}
+
+#bd-theme::after {
+  margin-left: 0;
+}
